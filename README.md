@@ -5,17 +5,38 @@ UnrealEngine 4 Notes
 
 ## 1 Requirements
 
-### 1.1 Gaming Engine:
+### 1.1 Software:
 
-* [UnrealEngine 4.7+](https://www.unrealengine.com/)
+* [UnrealEngine 4.7+](https://www.unrealengine.com/) -> Gaming engine.
+* [Maya](http://www.autodesk.com/products/maya/overview) or [3DS Max](http://www.autodesk.com/products/3ds-max/overview) -> For 3D modeling.
+* [Photoshop](http://www.photoshop.com/products/photoshop) or [Illustrator](http://www.adobe.com/products/illustrator.html) -> For texture.
 
-### 1.2 3D Modeling software
+**Windows**
 
-* [Maya](http://www.autodesk.com/products/maya/overview) or [3DS Max](http://www.autodesk.com/products/3ds-max/overview)
+* Visual studio 2013 pro or community (as per the UnrealEngine documentation, this is installed automatically)
 
-### 1.3 Textures
+**Mac**
 
-* [Photoshop](http://www.photoshop.com/products/photoshop) or [Illustrator](http://www.adobe.com/products/illustrator.html)
+* Xcode 5.0 or above
+
+### 1.2 Hardware:
+
+According to [UnrealEngine documentation](https://docs.unrealengine.com/latest/INT/GettingStarted/RecommendedSpecifications/).
+
+**Windows**
+
+* Windows 7 or above
+* A good graphic card that supports DirectX 11.
+* Quad-core Intel or AMD, 2.5 GHz or faster processor
+* 8 GB RAM or above
+
+**Mac**
+
+* Mac OSX 10.9.2 or above
+* A good graphic card.
+* Quad-core Intel, 2.5 GHz or faster
+* 8 GB RAM or above
+
 
 ## 2 Creating project
 
