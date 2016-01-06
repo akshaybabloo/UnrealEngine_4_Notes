@@ -3,7 +3,7 @@ UnrealEngine 4 using Blueprint visual scripting system.
 
 > Note 1: This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well :ok_hand:.
 
-> Note 2: Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com).
+> Note 2: Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com) :stuck_out_tongue_winking_eye:.
 
 ## 1 Requirements
 
@@ -103,6 +103,16 @@ Blueprint is divided into six parts:
 
 ## 5 Let's get started
 
+### 5.1 Editing the environment
+
 From the `World Outliner` lets remove `Cubes`, `Arena` and `Templatelabel`. We don't need them.
 
 Next, the `FirstPersonCharacter` (under World Outliner) default action is to shoot balls. We would have to change it. To do that, beside the `FirstPersonCharacter` there is a blue link which says `edit FirstPersonCharacter`. This is the link to `Blueprint` `Editor`. Clicking on it will open a new window.
+
+### 5.2 Blueprint editing
+
+In `Event Graph` tab, look for `Pawn projectile` and delete it and also delete the nodes in it. We wouldn't be needing it. Once you have deleted the nodes, click on `Compile` button on the `Toolbar`, this will check for any errors. If no errors are found, a green tick would appear. Close this window.
+
+### 5.3 Deleting unwanted meshes
+
+Click on <img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/SourcePanel.png" alt="show or hide source panel"> to show source panel. In that click on `FirstPerson` and on the right window, double click on `Meshes`. This should open meshes associated to our project, in that delete `First Person Projectile` and `First Person Projectile`. You will get an window warning you that the meshes are still referenced. click on `Force Delete`.
