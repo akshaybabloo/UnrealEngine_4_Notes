@@ -100,3 +100,9 @@ Blueprint is divided into six parts:
 4. *Details* - Settings related to nodes.
 5. *Toolbar* - Buttons to Save, Play etc.. are here.
 6. *Search* - This is where you can search for help regarding an object.
+
+## 5 Let's get started
+
+From the `World Outliner` lets remove `Cubes`, `Arena` and `Templatelabel`. We don't need them.
+
+Next, the `FirstPersonCharacter` (under World Outliner) default action is to shoot balls. We would have to change it. To do that, beside the `FirstPersonCharacter` there is a blue link which says `edit FirstPersonCharacter`. This is the link to `Blueprint` `Editor`. Clicking on it will open a new window.
