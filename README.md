@@ -43,3 +43,19 @@ According to [UnrealEngine documentation](https://docs.unrealengine.com/latest/I
 Open Epic launcher and launch UnrealEngine. Goto `New Project`, under Blueprint (It is a node based approach where you don't have to write an code) tab click on `First Person`. Make sure there are no Starter contents (i.e. rocks, land etc...). Change the location of your project and file name to suit your needs. Once all the primary configurations are done, click on `Create Project`.
 
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/NewProject.png" alt="New Project" width="700"></p>
+
+## 3 UnrealEngine overview
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/UnrealEngineNote.png" alt="New Project" width="700"></p>
+
+> Tip 1: press `cmd + alt` (Mac) and move the cursor on an icon to get a quick help.
+
+UnrealEngine (for me) is divided into seven parts:
+
+1. *Modes* - This is where all the tool to build an environment is kept.
+2. *Content browser* - All your project files can be browsed from this place.
+3. *Details* - When you click an object (Actor, Pawns, Lights etc..) all its details are displayed here.
+4. *World outliner (Outliner)* - What ever is available in the view port, can be seen here. Its like an Content browser but for you viewport.
+5. *Toolbar* - Buttons to Save, Play etc.. are here.
+6. *Search* - This is where you can search for help regarding an object.
+7. *Viewport* - Your design area or the Editor.
