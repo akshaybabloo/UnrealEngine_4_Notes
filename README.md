@@ -1,7 +1,7 @@
 # UnrealEngine-4-notes
 UnrealEngine 4 Notes
 
-> Note: This project is developed on Mac OSX 10.11.2. I am not sure if it will work on windows.
+> Note 1: This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well.
 
 ## 1 Requirements
 
