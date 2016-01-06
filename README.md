@@ -1,7 +1,9 @@
-# UnrealEngine-4-notes
-UnrealEngine 4 Notes
+# UnrealEngine 4
+UnrealEngine 4 using Blueprint visual scripting system.
 
 > Note 1: This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well :ok_hand:.
+
+> Note 2: Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com).
 
 ## 1 Requirements
 
@@ -41,18 +43,23 @@ According to [UnrealEngine documentation](https://docs.unrealengine.com/latest/I
 
 **Windows**
 
-* [Awesome Bump](http://awesomebump.besaba.com/) -> Free
-* [CrazyBump](http://www.crazybump.com/) -> Free
-* [SSBump Generator](http://ssbump-generator.yolasite.com/) -> Commercial
+* [Awesome Bump](http://awesomebump.besaba.com/) -> Free :+1:
+* [CrazyBump](http://www.crazybump.com/) -> Free :+1:
+* [SSBump Generator](http://ssbump-generator.yolasite.com/) -> Commercial :expressionless:
+* [Shadermap](http://shadermap.com/home/) -> Commercial :expressionless:
+* [Filterforge](https://www.filterforge.com/) -> Commercial :expressionless:
+* [B2M](https://www.allegorithmic.com/products/bitmap2material) -> Commercial :expressionless:
 
 **Mac**
 
-* [Awesome Bump](https://github.com/kmkolasinski/AwesomeBump) -> Free although you would have to build the files. Follow the instructions on their GitHub.
-* [CrazyBump](http://crazybump.com/mac/)
+* [Awesome Bump](https://github.com/kmkolasinski/AwesomeBump) -> Free although you would have to build the files. Follow the instructions on their GitHub. :+1:
+* [CrazyBump](http://crazybump.com/mac/) -> Free :+1:
+* [Filterforge](https://www.filterforge.com/) -> Commercial :expressionless:
+* [B2M](https://www.allegorithmic.com/products/bitmap2material) -> Commercial :expressionless:
 
 **Online**
 
-* [NormalMap Online](http://cpetry.github.io/NormalMap-Online/)
+* [NormalMap Online](http://cpetry.github.io/NormalMap-Online/) -> Free :+1:
 
 ## 2 Creating project
 
@@ -75,3 +82,21 @@ UnrealEngine (for me or maybe for everyone) is divided into seven parts:
 5. *Toolbar* - Buttons to Save, Play etc.. are here.
 6. *Search* - This is where you can search for help regarding an object.
 7. *Viewport* - Your design area or the Editor.
+
+## 4 Blueprint editor
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/UnrealEngineEditor.png" alt="New Project" width="700"></p>
+
+A `Blueprint` is a node based visual scripting system in which you would not need to code any action or effect an actor performs.
+
+Blueprint is divided into six parts:
+
+1. *Components* - Components of an actor.
+2. *My Blueprint* - An outline of Blueprint function, scripts etc..
+3. *Contents*
+  1. *Viewport* - 3D view related to a particular actor.
+  2. *Construction Script* - This contains Blueprint classes.
+  3. *Event Graph* - This tab contains nodes. They perform events and functions while a game is played.
+4. *Details* - Settings related to nodes.
+5. *Toolbar* - Buttons to Save, Play etc.. are here.
+6. *Search* - This is where you can search for help regarding an object.
