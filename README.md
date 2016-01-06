@@ -1,7 +1,7 @@
 # UnrealEngine-4-notes
 UnrealEngine 4 Notes
 
-> Note 1: This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well.
+> Note 1: This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well :ok_hand:.
 
 ## 1 Requirements
 
@@ -37,6 +37,22 @@ According to [UnrealEngine documentation](https://docs.unrealengine.com/latest/I
 * Quad-core Intel, 2.5 GHz or faster
 * 8 GB RAM or above
 
+## 1.3 Bump Maps (or Normal Maps) generator
+
+**Windows**
+
+* [Awesome Bump](http://awesomebump.besaba.com/) -> Free
+* [CrazyBump](http://www.crazybump.com/) -> Free
+* [SSBump Generator](http://ssbump-generator.yolasite.com/) -> Commercial
+
+**Mac**
+
+* [Awesome Bump](https://github.com/kmkolasinski/AwesomeBump) -> Free although you would have to build the files. Follow the instructions on their GitHub.
+* [CrazyBump](http://crazybump.com/mac/)
+
+**Online**
+
+* [NormalMap Online](http://cpetry.github.io/NormalMap-Online/)
 
 ## 2 Creating project
 
@@ -50,7 +66,7 @@ Open Epic launcher and launch UnrealEngine. Goto `New Project`, under Blueprint 
 
 > Tip 1: press `cmd + alt` (Mac) and move the cursor on an icon to get a quick help.
 
-UnrealEngine (for me) is divided into seven parts:
+UnrealEngine (for me or maybe for everyone) is divided into seven parts:
 
 1. *Modes* - This is where all the tool to build an environment is kept.
 2. *Content browser* - All your project files can be browsed from this place.
