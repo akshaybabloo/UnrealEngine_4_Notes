@@ -115,4 +115,8 @@ In `Event Graph` tab, look for `Pawn projectile` and delete it and also delete t
 
 ### 5.3 Deleting unwanted meshes
 
-Under `Content browser` Click on <img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/SourcePanel.png" alt="show or hide source panel" width="20"> to show source panel. In that click on `FirstPerson` and on the right window, double click on `Meshes`. This should open meshes associated to our project, in that delete `First Person Projectile` and `First Person Projectile`. You will get an window warning you that the meshes are still referenced. click on `Force Delete`. Then delete the `arms` and `gun` in the same way
+Under `Content browser` Click on <img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/SourcePanel.png" alt="show or hide source panel" width="20"> to show source panel. In that click on `FirstPerson` and on the right window, double click on `Meshes`. This should open meshes associated to our project, in that delete `First Person Projectile` and `First Person Projectile`. You will get an window warning you that the meshes are still referenced. click on `Force Delete`. Then delete the `arms` and `gun` in the same way.
+
+### 5.4 Creating Maya models
+
+A Maya 2016 model is developed and is available in [UnrealEngine_4_Maya](https://github.com/akshaybabloo/UnrealEngine_4_Notes/tree/master/UnrealEngine_4_Maya) folder and `fbx` file is located in [Import](https://github.com/akshaybabloo/UnrealEngine_4_Notes/tree/master/Import) folder.
