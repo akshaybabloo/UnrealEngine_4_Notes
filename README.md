@@ -120,3 +120,9 @@ Under `Content browser` Click on <img src="https://raw.githubusercontent.com/aks
 ### 5.4 Creating Maya models
 
 A Maya 2016 model is developed and is available in [UnrealEngine_4_Maya](https://github.com/akshaybabloo/UnrealEngine_4_Notes/tree/master/UnrealEngine_4_Maya) folder and `fbx` file is located in [Import](https://github.com/akshaybabloo/UnrealEngine_4_Notes/tree/master/Import) folder.
+
+### 5.5 Importing `fbx` file
+
+It is recommend that you always create multiple `fbx` files so that the UnrealEngine doesn't crash (the project is big). In this case its not a big import so I didn't do that.
+
+In `Content Browser` click on `Import`, browse to `Import/house.fbx` and click `Open`. You will get a pop up `FBX Import Options` in that un-tick `Auto Generate Collision` (It creates a collision box or sphere etc.. for every object, we can do that manually). Then clikc on `Import All`   
