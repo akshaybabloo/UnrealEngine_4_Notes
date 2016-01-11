@@ -153,7 +153,7 @@ This editor is divided into five parts:
 
 There are different types of colliders. Namely
 
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/CollusionMenu.png" alt="New Project" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/CollusionMenu.png" alt="New Project" width="900"></p>
 
 In this DOP means Discrete Oriented Polytope, which means that it will create box collision with bevels which is closest to the object or the actor. see [here](https://docs.unrealengine.com/latest/INT/Engine/Content/Types/StaticMeshes/HowTo/SettingCollision/index.html) to understand more about it.
 
