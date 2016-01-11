@@ -135,3 +135,28 @@ Once you have imported your `fbx` file, the following files are generated:
 * Bump maps (if it is associated with the model)
 
 What I have done is that I have separated these files into their corresponding folders. For example, I have moved all my `meshes` to `Content/FirstPerson/Meshes/`.
+
+### 5.6 Adding collusions
+
+When you double click on the `house_no_doors` mesh, this will open the following editor
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/StaticMeshEditor.png" alt="New Project" width="700"></p>
+
+This editor is divided into five parts:
+
+* *Viewport* - 3D view related to a particular actor.
+* *Socket Manager* - For skeletons.
+* *Details* - Settings related to an actor.
+* *Toolbar* - Buttons to Save, Wireframe etc.. are here.
+* *Search* - his is where you can search for help regarding an object.
+
+
+There are different types of colliders. Namely
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/CollusionMenu.png" alt="New Project" width="700"></p>
+
+In this DOP means Discrete Oriented Polytope, which means that it will create box collision with bevels which is closest to the object or the actor. see [here](https://docs.unrealengine.com/latest/INT/Engine/Content/Types/StaticMeshes/HowTo/SettingCollision/index.html) to understand more about it.
+
+We will be using Blueprint for the doors but for the rest of the building we will use `mesh collider`. In the `Details` tab (left to the editor). Scroll down and search for `Static Mesh Settings` in that tab change the `Collusion Complexity` `Default` to `Use Complex Collusion As Simple`. Save and close the editor.
+
+>Note 3: Adding Mesh collusions will be expensive. That means the rendering time would take more time and the system will uses more frames per second depending on the number of mesh collusions. But for this example I have just created mesh collusion to make is simple.
