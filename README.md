@@ -125,4 +125,13 @@ A Maya 2016 model is developed and is available in [UnrealEngine_4_Maya](https:/
 
 It is recommend that you always create multiple `fbx` files so that the UnrealEngine doesn't crash (the project is big). In this case its not a big import so I didn't do that.
 
-In `Content Browser` click on `Import`, browse to `Import/house.fbx` and click `Open`. You will get a pop up `FBX Import Options` in that un-tick `Auto Generate Collision` (It creates a collision box or sphere etc.. for every object, we can do that manually). Then clikc on `Import All`   
+In `Content Browser` click on `Import`, browse to `Import/house.fbx` and click `Open`. You will get a pop up `FBX Import Options` in that un-tick `Auto Generate Collision` (It creates a collision box or sphere etc.. for every object, we can do that manually). Then click on `Import All`.
+
+Once you have imported your `fbx` file, the following files are generated:
+
+* Meshes
+* Texture (if it is associated with the model)
+* Normal maps (if it is associated with the model)
+* Bump maps (if it is associated with the model)
+
+What I have done is that I have separated these files into their corresponding folders. For example, I have moved all my `meshes` to `Content/FirstPerson/Meshes/`.
