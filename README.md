@@ -123,7 +123,17 @@ A Maya 2016 model is developed and is available in [UnrealEngine_4_Maya](https:/
 
 ### 5.5 Importing `fbx` file
 
-It is recommend that you always create multiple `fbx` files so that the UnrealEngine doesn't crash (the project is big). In this case its not a big import so I didn't do that.
+There are two ways to import an `fbx` file into the project that fits the scale of the project. In this case I am using maya.
+
+1. You can scale up the models while importing `fbx` files into UnrealEngine. When you import an `fbx` file you will get an option
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/StaticMeshEditor.png" alt="New Project" width="700"></p>
+
+When ever I import the models I usually scale it up to `100`.
+
+2. The other way is to change the Maya environment so that the models can be imported as it is. You can check out this tutorial [here](http://www.worldofleveldesign.com/categories/ue4/ue4-set-up-maya-grid-to-match-unreal-engine4.php).
+
+It is recommend that you always create multiple `fbx` files so that the UnrealEngine doesn't crash (if the project is big). In this case its not a big import so I didn't do that.
 
 In `Content Browser` click on `Import`, browse to `Import/house.fbx` and click `Open`. You will get a pop up `FBX Import Options` in that un-tick `Auto Generate Collision` (It creates a collision box or sphere etc.. for every object, we can do that manually). Then click on `Import All`.
 
