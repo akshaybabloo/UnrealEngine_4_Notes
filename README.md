@@ -160,3 +160,17 @@ In this DOP means Discrete Oriented Polytope, which means that it will create bo
 We will be using Blueprint for the doors but for the rest of the building we will use `mesh collider`. In the `Details` tab (left to the editor). Scroll down and search for `Static Mesh Settings` in that tab change the `Collusion Complexity` `Default` to `Use Complex Collusion As Simple`. Save and close the editor.
 
 > **Note 4:** Adding Mesh collusions will be expensive. That means the rendering time would take more time and the system will uses more frames per second depending on the number of mesh collusions. But for this example I have just created mesh collusion to make is simple.
+
+### 5.7 Creating Blueprints
+
+All my Blueprints are place in `FIrstPersonBP/Blueprints/`. To create a blueprint right click on the `Content Browser` and click on `Blueprint Classes`, this will pop-up a window which will ask you to select a parent class that should look something like this
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/PickParentClass.png" alt="New Project" width="700"></p>
+
+We will create a simple `Actor` for this blueprint and name it as `DoubleDoor`. Double click on it to open Blueprint editor. Now drag the `door_left` and `door right` into the blueprint editor. Then click on `compile` and `save` from the Toolbar.
+
+### 5.8 Add models to the Viewport
+
+Goto meshes folder and drag all the meshes and drop it on the view port. If the models looks out of placement, you can `0` the transformation in from the details tab.
+
+Now from the Blueprints folder drag and drop `DoubleDoor` blueprint into the viewport. Once this is done place this in the exact place where the door should be. Save the scene.
