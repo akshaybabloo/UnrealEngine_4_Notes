@@ -65,11 +65,11 @@ According to [UnrealEngine documentation](https://docs.unrealengine.com/latest/I
 
 Open Epic launcher and launch UnrealEngine. Goto `New Project`, under Blueprint (It is a node based approach where you don't have to write an code) tab click on `First Person`. Make sure there are no Starter contents (i.e. rocks, land etc...). Change the location of your project and file name to suit your needs. Once all the primary configurations are done, click on `Create Project`.
 
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/NewProject.png" alt="New Project" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/NewProject.png" alt="New Project" width="800"></p>
 
 ## 3 UnrealEngine overview
 
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/UnrealEngineNote.png" alt="New Project" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/UnrealEngineNote.png" alt="New Project" width="800"></p>
 
 > Tip 1: press `cmd + alt` (Mac) and move the cursor on an icon to get a quick help.
 
@@ -85,7 +85,7 @@ UnrealEngine (for me or maybe for everyone) is divided into seven parts:
 
 ## 4 Blueprint editor
 
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/UnrealEngineEditor.png" alt="New Project" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/UnrealEngineEditor.png" alt="New Project" width="800"></p>
 
 A `Blueprint` is a node based visual scripting system in which you would not need to code any action or effect an actor performs.
 
@@ -140,7 +140,7 @@ What I have done is that I have separated these files into their corresponding f
 
 When you double click on the `house_no_doors` mesh, this will open the following editor
 
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/StaticMeshEditor.png" alt="New Project" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/StaticMeshEditor.png" alt="New Project" width="800"></p>
 
 This editor is divided into five parts:
 
