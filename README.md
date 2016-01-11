@@ -1,9 +1,9 @@
 # UnrealEngine 4
 UnrealEngine 4 using Blueprint visual scripting system.
 
-> Note 1: This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well :ok_hand:.
+> **Note 1:** This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well :ok_hand:.
 
-> Note 2: Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com) :stuck_out_tongue_winking_eye:.
+> **Note 2:** Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com) :stuck_out_tongue_winking_eye:.
 
 ## 1 Requirements
 
@@ -71,7 +71,7 @@ Open Epic launcher and launch UnrealEngine. Goto `New Project`, under Blueprint 
 
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/UnrealEngineNote.png" alt="New Project" width="800"></p>
 
-> Tip 1: press `cmd + alt` (Mac) and move the cursor on an icon to get a quick help.
+> **Tip 1:** press `cmd + alt` (Mac) and move the cursor on an icon to get a quick help.
 
 UnrealEngine (for me or maybe for everyone) is divided into seven parts:
 
@@ -159,4 +159,4 @@ In this DOP means Discrete Oriented Polytope, which means that it will create bo
 
 We will be using Blueprint for the doors but for the rest of the building we will use `mesh collider`. In the `Details` tab (left to the editor). Scroll down and search for `Static Mesh Settings` in that tab change the `Collusion Complexity` `Default` to `Use Complex Collusion As Simple`. Save and close the editor.
 
->Note 3: Adding Mesh collusions will be expensive. That means the rendering time would take more time and the system will uses more frames per second depending on the number of mesh collusions. But for this example I have just created mesh collusion to make is simple.
+> **Note 4:** Adding Mesh collusions will be expensive. That means the rendering time would take more time and the system will uses more frames per second depending on the number of mesh collusions. But for this example I have just created mesh collusion to make is simple.
