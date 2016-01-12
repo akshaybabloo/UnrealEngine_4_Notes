@@ -250,4 +250,12 @@ If any changes are made do not forget to click on `Update Captures`.
 
 In `Modes` tab, click on `Lights`, I will add a `Spot Light` on top of my table by dragging it into the Viewport. You can change the `Perspective` to `Top` to make it easy to move the spot light.
 
-Once you have placed your lights click on the small arrow beside `Build` button in the Toolbar and click on `Build Lights Only`. At this point if you have multiple number of light on a surface you will get a small red mark on the lights and you might get error while building the lights. 
+Once you have placed your lights click on the small arrow beside `Build` button in the Toolbar and click on `Build Lights Only`. At this point if you have multiple number of light on a surface you will get a small red mark on the lights and you might get error while building the lights.
+
+### 7.2 IES Profiling
+
+An IES profiles gives you the shave and size of the light rays that come from a spotlight. IES files are usually given out by the lights manufactures, lets consider [GE Lighting](http://www.gelighting.com/LightingWeb/aus/products/technologies/led/led-r63-dimmable/overview/), if you scroll down in that web site you can find IES/LDT files.
+
+You can use this file by importing it into UnrealEngine and drag & drop on the `IES Texture` under `Light Profiles` by selecting a spot light.
+
+An example of these can be seen [here](http://www.derekjenson.com/3d-blog/ies-light-profiles).
