@@ -127,7 +127,7 @@ There are two ways to import an `fbx` file into the project that fits the scale 
 
 1. You can scale up the models while importing `fbx` files into UnrealEngine. When you import an `fbx` file you will get an option
 
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/StaticMeshEditor.png" alt="New Project" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/ImportFBX.png" alt="New Project" width="700"></p>
 
 When ever I import the models I usually scale it up to `100`.
 
