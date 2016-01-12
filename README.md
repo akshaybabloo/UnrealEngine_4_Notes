@@ -237,3 +237,7 @@ Let try to give a shine to one of the material which is used in as texture to th
 The nodes should look something like this:
 
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/GlassNode.png" alt="New Project" width="700"></p>
+
+### 6.4 Adding reflections
+
+In the `Modes` tab search for `Sphere Reflection Capture` and drag it near the glass door. In the `Details` tab search for `Reflection Capture` and change the value of `Influence Radius` this will change the outer radius of the sphere.
