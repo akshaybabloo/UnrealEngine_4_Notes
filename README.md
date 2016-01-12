@@ -221,4 +221,19 @@ Let try to give a shine to one of the material which is used in as texture to th
 3. lets create a `Constant3Vector`, you can right click and search for it or you can drag or double click the node from `Palette` tab or press and hold `3` and left click on the mouse.
 4. Connect this node to `Base Color`.
 5. Double click on the color to pop out color palette. Change the color as you like. Click on `Save` once done.
-6. create a `Constant` and connect it to `Specular`. Change the value to `0.6`.
+6. Create a `Constant` and connect it to `Specular`. Change the value to `0.6`.
+7. Create a constant and connect it to `Roughness`. Change the value to `0.2`.
+8. Save and close.
+
+### 6.3 Creating glass
+
+1. Double click on `Glass` material.
+2. Delete `None` node.
+3. if a node is selected, un select it by click outside. In the `Details` tab, under `Material` change `Blend Mode` -> `Translucent`. Under `Translucency` tab uncheck `Separaye Translucency` and change the `Lighting Mode` -> `Surfae TranslucencyVolume`.
+4. Next add `Constant3Vector` and make a dark green color. Add two constants `0.2` for Metallic and `2` for Specular. Then add `Lerp` (Linear Interpolation) by pressing `L` and clicking left mouse button and connect it to Opacity. Next add a `Fresnel_Function` connect the `Result` to `Alpha` of `Lerp` node. Two constants with value `0` connected to `A` and `1` connected to `B` of `Lerp` node.
+5. Now copy two `Constants`, `Lerp` and `Fresnel_Function` and paste it. Connect the result to Refraction.
+6. Create another constant of `0` and connect it to Roughness.
+
+The nodes should look something like this:
+
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/GlassNode.png" alt="New Project" width="700"></p>
