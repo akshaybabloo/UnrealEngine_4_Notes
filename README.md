@@ -127,9 +127,9 @@ There are two ways to import an `fbx` file into the project that fits the scale 
 
 1. You can scale up the models while importing `fbx` files into UnrealEngine. When you import an `fbx` file you will get an option
 
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/ImportFBX.png" alt="New Project" width="500"></p>
+  <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/ImportFBX.png" alt="New Project" width="500"></p>
 
-When ever I import the models I usually scale it up to `100`.
+  When ever I import the models I usually scale it up to `100`.
 
 2. The other way is to change the Maya environment so that the models can be imported as it is. You can check out this tutorial [here](http://www.worldofleveldesign.com/categories/ue4/ue4-set-up-maya-grid-to-match-unreal-engine4.php).
 
@@ -184,3 +184,30 @@ We will create a simple `Actor` for this blueprint and name it as `DoubleDoor`. 
 Goto meshes folder and drag all the meshes and drop it on the view port. If the models looks out of placement, you can `0` the transformation in from the details tab.
 
 Now from the Blueprints folder drag and drop `DoubleDoor` blueprint into the viewport. Once this is done place this in the exact place where the door should be. Save the scene.
+
+## 6 Material and Lighting
+
+### 6.1 Editing materials
+
+When you move the meshes to the viewport in UnrealEngine editor, some times depending on the software used to export `fbx` files, the material is added to the meshes automatically and some times not. The materials may include Normals, Bump maps, occlusions etc.. To manually add these to an existing material you would have to do the following:
+
+1. On the left side of the editor under Details (make sure you have selected the model from the Viewport), search for Materials, in that tab you can see different elements associated to the static mesh. Double click on a material this will open Material editor.
+
+  <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/NaterialEditor.png" alt="New Project" width="800"></p>
+
+  It consists the following components:
+
+  1. *Preview* - Preview of the changes made to the material.
+  2. *Viewport* - Node editor.
+  3. *Palette* - Node menu.
+  4. *Details* - Details of a selected node.
+  5. *Toolbar* - Consists of save, apply etc..
+  6. *Search* - Search for components related to UnrealEngine.
+
+2. In the viewport there are three node `Constant` (Custom metallic effect), `lambert2` (actual texture from Maya) and `Texture Sample` (Texture added to lambert2).
+
+  The `Texture Sample` node consists of RBG channels as shown in the image below
+
+  <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/TextureNode.png" alt="New Project" width="170"></p>
+
+3. Once you have done the necessary changes then you should click on `Apply` and then `Save`.
