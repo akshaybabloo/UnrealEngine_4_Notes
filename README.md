@@ -185,7 +185,7 @@ Goto meshes folder and drag all the meshes and drop it on the view port. If the 
 
 Now from the Blueprints folder drag and drop `DoubleDoor` blueprint into the viewport. Once this is done place this in the exact place where the door should be. Save the scene.
 
-## 6 Material and Lighting
+## 6 Material
 
 ### 6.1 Editing materials
 
@@ -243,3 +243,11 @@ The nodes should look something like this:
 In the `Modes` tab search for `Sphere Reflection Capture` and drag it near the glass door. In the `Details` tab search for `Reflection Capture` and change the value of `Influence Radius` this will change the outer radius of the sphere.
 
 If any changes are made do not forget to click on `Update Captures`.
+
+## 7 Lighting
+
+### 7.1 Adding lights
+
+In `Modes` tab, click on `Lights`, I will add a `Spot Light` on top of my table by dragging it into the Viewport. You can change the `Perspective` to `Top` to make it easy to move the spot light.
+
+Once you have placed your lights click on the small arrow beside `Build` button in the Toolbar and click on `Build Lights Only`. At this point if you have multiple number of light on a surface you will get a small red mark on the lights and you might get error while building the lights. 
