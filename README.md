@@ -211,3 +211,14 @@ When you move the meshes to the viewport in UnrealEngine editor, some times depe
   <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/TextureNode.png" alt="New Project" width="170"></p>
 
 3. Once you have done the necessary changes then you should click on `Apply` and then `Save`.
+
+### 6.2 Shine to `lambert7` texture
+
+Let try to give a shine to one of the material which is used in as texture to the out side railings. Do the following:
+
+1. Goto texture folder and double click on `lambert7` texture, this should open material editor.
+2. Delete `None` node.
+3. lets create a `Constant3Vector`, you can right click and search for it or you can drag or double click the node from `Palette` tab or press and hold `3` and left click on the mouse.
+4. Connect this node to `Base Color`.
+5. Double click on the color to pop out color palette. Change the color as you like. Click on `Save` once done.
+6. create a `Constant` and connect it to `Specular`. Change the value to `0.6`.
