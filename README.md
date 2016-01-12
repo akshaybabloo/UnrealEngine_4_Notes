@@ -241,3 +241,5 @@ The nodes should look something like this:
 ### 6.4 Adding reflections
 
 In the `Modes` tab search for `Sphere Reflection Capture` and drag it near the glass door. In the `Details` tab search for `Reflection Capture` and change the value of `Influence Radius` this will change the outer radius of the sphere.
+
+If any changes are made do not forget to click on `Update Captures`.
