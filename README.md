@@ -233,4 +233,12 @@ Click on the `trigger` under components to bring its details. In that details pa
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/CollusionDoor.png" alt="New Project" width="600"></p>
 
 Next right click on the grid and search for `Lerp` under Float tab. Right click on `A` and `B` and choose `Promote to Variable`. Rename it in the Details pane as `Closed` and `Opened`.
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/Door1.png" alt="New Project" width="600"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/Door1.png" alt="New Project" width="800"></p>
+
+### 8.3 Adding animations
+Double click on `DoorOpen` node to open the time line. Which should be empty. Click on `f+` to add float time line, name it as `DoorOpenAnimation`. Right click and add a key at `Time 0.0` and `Value 0.0`. Add another key at `Time 1.5` and `Value 1.0`. Select both keys, right click on it and select `Auto` this will generate a curve. Go back to the event graph and connect `DoorOpenAnimation` to `Lerp`'s `Alpha` in.
+
+Now lets add a translation to both the doors. Click on `door_left` and RMB and search for `SetRelativeLocation(door_right)` and `SetRelativeLocation(door_left)`. In `SetRelativeLocation` nodes right click on `New Location` and click on `Split Struct Pin`, this will split into `x, y & z` connect all the nodes as shown in the image below:
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/DoorAnimation.png" alt="New Project" width="800"></p>
+
+Don't forget to compile and save once done.
