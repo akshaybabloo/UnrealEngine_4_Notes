@@ -76,14 +76,14 @@ A `Blueprint` is a node based visual scripting system in which you would not nee
 Blueprint is divided into six parts:
 1. _Components_ - Components of an actor.
 2. _My Blueprint_ - An outline of Blueprint function, scripts etc..
-3. _Contents_
+- _Contents_
   1. _Viewport_ - 3D view related to a particular actor.
   2. _Construction Script_ - This contains Blueprint classes.
   3. _Event Graph_ - This tab contains nodes. They perform events and functions while a game is played.
 
-4. _Details_ - Settings related to nodes.
-5. _Toolbar_ - Buttons to Save, Play etc.. are here.
-6. _Search_ - This is where you can search for help regarding an object.
+- _Details_ - Settings related to nodes.
+3. _Toolbar_ - Buttons to Save, Play etc.. are here.
+4. _Search_ - This is where you can search for help regarding an object.
 
 ## 5 Let's get started
 ### 5.1 Editing the environment
@@ -214,3 +214,10 @@ You can use this file by importing it into UnrealEngine and drag & drop on the `
 An example of these can be seen [here](http://www.derekjenson.com/3d-blog/ies-light-profiles).
 
 ## 8 Adding animations and interactions
+### 8.1 Adding sockets
+Double click on `door_hinge`. Add a box collider to it. To add sockets to the hinge do the following
+
+from the menu bar click on `Window -> Socket Manager`. On the left side of the screen below you will see a tab called `Sock Manager` in that click on `Create Socket` and name the socket as `SocketDoorL` and place it as shown in the image below. Like wise create another socket and place it as shown.
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/GlassNode.png" alt="New Project" width="700"></p>
+
+Save and close the window.
