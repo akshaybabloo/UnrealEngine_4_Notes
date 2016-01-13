@@ -76,14 +76,14 @@ A `Blueprint` is a node based visual scripting system in which you would not nee
 Blueprint is divided into six parts:
 1. _Components_ - Components of an actor.
 2. _My Blueprint_ - An outline of Blueprint function, scripts etc..
-- _Contents_
+3. _Contents_
   1. _Viewport_ - 3D view related to a particular actor.
   2. _Construction Script_ - This contains Blueprint classes.
   3. _Event Graph_ - This tab contains nodes. They perform events and functions while a game is played.
 
-- _Details_ - Settings related to nodes.
-3. _Toolbar_ - Buttons to Save, Play etc.. are here.
-4. _Search_ - This is where you can search for help regarding an object.
+4. _Details_ - Settings related to nodes.
+5. _Toolbar_ - Buttons to Save, Play etc.. are here.
+6. _Search_ - This is where you can search for help regarding an object.
 
 ## 5 Let's get started
 ### 5.1 Editing the environment
