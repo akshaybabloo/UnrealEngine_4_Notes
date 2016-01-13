@@ -218,6 +218,19 @@ An example of these can be seen [here](http://www.derekjenson.com/3d-blog/ies-li
 Double click on `door_hinge`. Add a box collider to it. To add sockets to the hinge do the following
 
 from the menu bar click on `Window -> Socket Manager`. On the left side of the screen below you will see a tab called `Sock Manager` in that click on `Create Socket` and name the socket as `SocketDoorL` and place it as shown in the image below. Like wise create another socket and place it as shown.
-<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/GlassNode.png" alt="New Project" width="700"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/SocketsHingg.png" alt="New Project" width="700"></p>
 
 Save and close the window.
+
+Create a blueprint class and name it as `DoubleDoorHinge` to this add `door_hinge`, `door_left` and `door_right`.
+
+drag the `door_hinge` onto the DefaultComponent to make it as a parent. In the `Details` tab search for `Sockets` in that beside the text box click on the magnifying glass to browse available sockets. Make sure you assign the correct socket to the correct door.
+
+### 8.2 Adding triggers
+Open `DoubleDoorHinge` if not already open. Add a `sphere collider` and increase its radius so that both the doors are covered. Goto Event Graph, in that there is a node called `Event ActorBeginOverlap` click and drag a connect to outside of the node and search for `Add Timeline...`. this will create a new node. Next under `My Blueprint` `Variables -> Components` click on trigger. This will open its details in `Detail` pane. In that pane infer `Events` click on the `+` beside `On Component End Overlap` this will create a node.
+
+Click on the `trigger` under components to bring its details. In that details pane search for `Collusion` change `collusion preset` to `Custom`. Ignore all except `Pawn`
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/CollusionDoor.png" alt="New Project" width="600"></p>
+
+Next right click on the grid and search for `Lerp` under Float tab. Right click on `A` and `B` and choose `Promote to Variable`. Rename it in the Details pane as `Closed` and `Opened`.
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/Door1.png" alt="New Project" width="600"></p>
