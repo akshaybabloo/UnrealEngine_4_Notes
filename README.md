@@ -1,7 +1,7 @@
 # UnrealEngine 4
 UnrealEngine 4 using Blueprint visual scripting system.
 
-> **Note 1:** This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.1. It should work on Windows as well :ok_hand:.
+> **Note 1:** This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.2. It should work on Windows as well :ok_hand:.
 
 > **Note 2:** Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com) :stuck_out_tongue_winking_eye:.
 
@@ -244,8 +244,19 @@ Now lets add a translation to both the doors. Click on `door_left` and RMB and s
 Don't forget to compile and save once done.
 
 ## 9 Landscaping
-## 9.1 Creating grass material
+### 9.1 Creating grass material
 Create a diffuse and normal from one of the softwares given in the requirements and import it into the Texture folder. UnrealEngine will convert it into texture automatically. No goto the materials folder, right click and `Material`. This will open an Node editor.
 
 In that press `T + LMB` to create a texture node, under Details pane, browse to `grass_COLOR` then select it. Do the same thing again but this time browse to `grass_normal`, attach the node to `grass` node as shown below:
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/MakeTexture.png" alt="New Project" width="400"></p>
+
+### 9.2 Adding terrains
+To add terrains, click on the Landscape icon in Modes, this will populate a green mesh in the viewport. Move the mesh below the building. Under modes `New Landscape`, browse to the `Grass` material. Reduce the `Section Size` to `31x31` and click on create.
+
+Once create just start painting on it. See other tools for more fine detailing the landscapes.
+
+### 9.3 Foliage
+This can be found in the Modes. YOu can drag and drop any meshes like tree or grass into this and start putting on the the ground.
+
+## 10 Polishing environment
+### 10.1 Global Post Processing
