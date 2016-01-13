@@ -242,3 +242,10 @@ Now lets add a translation to both the doors. Click on `door_left` and RMB and s
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/DoorAnimation.png" alt="New Project" width="800"></p>
 
 Don't forget to compile and save once done.
+
+## 9 Landscaping
+## 9.1 Creating grass material
+Create a diffuse and normal from one of the softwares given in the requirements and import it into the Texture folder. UnrealEngine will convert it into texture automatically. No goto the materials folder, right click and `Material`. This will open an Node editor.
+
+In that press `T + LMB` to create a texture node, under Details pane, browse to `grass_COLOR` then select it. Do the same thing again but this time browse to `grass_normal`, attach the node to `grass` node as shown below:
+<p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/MakeTexture.png" alt="New Project" width="400"></p>
