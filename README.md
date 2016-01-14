@@ -5,6 +5,50 @@ UnrealEngine 4 using Blueprint visual scripting system.
 
 > **Note 2:** Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com) :stuck_out_tongue_winking_eye:.
 
+**Table of Constant**
+- [1 Requirements](#1-requirements)
+  - [1.1 Software:](#11-software)
+  - [1.2 Hardware:](#12-hardware)
+  - [1.3 Bump Maps (or Normal Maps) generator](#13-bump-maps-or-normal-maps-generator)
+
+- [2 Creating project](#2-creating-project)
+- [3 UnrealEngine overview](#3-unrealengine-overview)
+- [4 Blueprint editor](#4-blueprint-editor)
+- [5 Let's get started](#5-lets-get-started)
+  - [5.1 Editing the environment](#51-editing-the-environment)
+  - [5.2 Blueprint editing](#52-blueprint-editing)
+  - [5.3 Deleting unwanted meshes](#53-deleting-unwanted-meshes)
+  - [5.4 Creating Maya models](#54-creating-maya-models)
+  - [5.5 Importing `fbx` file](#55-importing-fbx-file)
+  - [5.6 Adding collusions](#56-adding-collusions)
+  - [5.7 Creating Blueprints](#57-creating-blueprints)
+  - [5.8 Add models to the Viewport](#58-add-models-to-the-viewport)
+
+- [6 Material](#6-material)
+  - [6.1 Editing materials](#61-editing-materials)
+  - [6.2 Shine to `lambert7` texture](#62-shine-to-lambert7-texture)
+  - [6.3 Creating glass](#63-creating-glass)
+  - [6.4 Adding reflections](#64-adding-reflections)
+
+- [7 Lighting](#7-lighting)
+  - [7.1 Adding lights](#71-adding-lights)
+  - [7.2 IES Profiling](#72-ies-profiling)
+
+- [8 Adding animations and interactions](#8-adding-animations-and-interactions)
+  - [8.1 Adding sockets](#81-adding-sockets)
+  - [8.2 Adding triggers](#82-adding-triggers)
+  - [8.3 Adding animations](#83-adding-animations)
+
+- [9 Landscaping](#9-landscaping)
+  - [9.1 Creating grass material](#91-creating-grass-material)
+  - [9.2 Adding terrains](#92-adding-terrains)
+  - [9.3 Foliage](#93-foliage)
+
+- [10 Polishing environment](#10-polishing-environment)
+  - [10.1 Global Post Processing](#101-global-post-processing)
+
+- [11 Publishing](#11-publishing)
+
 ## 1 Requirements
 ### 1.1 Software:
 - [UnrealEngine 4.7+](https://www.unrealengine.com/) -> Gaming engine.
@@ -260,3 +304,13 @@ This can be found in the Modes. YOu can drag and drop any meshes like tree or gr
 
 ## 10 Polishing environment
 ### 10.1 Global Post Processing
+From the `World Outliner` search for `PostProcessVolume`, this should be under `Lighting` folder. In that search for `Post Process Volume` and click on `>Settings` tab, this is where you can change the global visual settings.
+
+Open the project and look it to the various setting I have changed to make the visualization look real.
+
+# 11 Publishing
+The final step is to publish the environment.
+
+To do that click on `File -> Package Project -> Select your platform`.
+
+> Note 5: If you are on Windows you can only package the game for Windows only but not for Mac and Linux. It goes the same to Mac and Linux.
