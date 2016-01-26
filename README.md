@@ -7,6 +7,7 @@ UnrealEngine 4 using Blueprint visual scripting system.
 
 **Outcome**
 
+> **Note 3:** This is only a gif file compressed to load easily. The quality of the environment is 1000000% better than this.
 <p align="center"><img src="https://raw.githubusercontent.com/akshaybabloo/UnrealEngine_4_Notes/master/Screenshots/demo.gif" alt="New Project" width="500"></p>
 
 **Table of Constant**
