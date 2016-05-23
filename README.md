@@ -102,6 +102,7 @@ Open Epic launcher and launch UnrealEngine. Goto `New Project`, under Blueprint 
 > **Tip 1:** press `cmd + alt` (Mac) and move the cursor on an icon to get a quick help.
 
 UnrealEngine (for me or maybe for everyone) is divided into seven parts:
+
 1. _Modes_ - This is where all the tool to build an environment is kept.
 2. _Content browser_ - All your project files can be browsed from this place.
 3. _Details_ - When you click an object (Actor, Pawns, Lights, etc..) all its details are displayed here.
