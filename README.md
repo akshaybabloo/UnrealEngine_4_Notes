@@ -1,7 +1,7 @@
 # UnrealEngine 4
 UnrealEngine 4 using Blueprint visual scripting system.
 
-> **Note 1:** This project is developed on Mac OSX 10.11.2 using UnrealEngine 4.10.2. It should work on Windows as well :ok_hand:.
+> **Note 1:** This project is developed on Windows 10 using UnrealEngine 4.12.5. It should work on Windows as well :ok_hand:. The Character movements has been disabled.
 
 > **Note 2:** Notes shown below may contain few lines from the original [UnrealEngine Documentation](https://docs.unrealengine.com) :stuck_out_tongue_winking_eye:.
 
